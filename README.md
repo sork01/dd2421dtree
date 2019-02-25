@@ -68,7 +68,7 @@ print(d.check(t, m.monk1test))
 |  MONK-2 |     1.0       | 0.6921296296296297  |
 |  MONK-3 |     1.0       | 0.9444444444444444  |
 
-Write something about assumptions here!
+The assumption is correct. Monk-2 has the most errors and thus is the most difficult to learn.
 
 ---
 
