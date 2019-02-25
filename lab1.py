@@ -188,14 +188,13 @@ def prune(traintree, valtree):
         trees.append(pruned[i])
         chosentree.append(d.check(pruned[i], valtree))
         #print(d.check(pruned[i], valtree))
-    if status < max(chosentree):
+        print(chosentree)
+    if status <= max(chosentree):
         #print(str(status) + " is less than " + str(max(chosentree)))
         #print("now pruning tree nr: " + str(chosentree.index(max(chosentree))))
         return prune(trees[chosentree.index(max(chosentree))], valtree)
     else:
         return traintree
-
-
 
 #print(prune(monk1traintree))
 plotresult = []
