@@ -84,4 +84,4 @@ Evaluate the eﬀect pruning has on the test error for the `monk1` and `monk3` d
 
 
 
-<p align="center"><img src="https://github.com/sork01/dd2421dtree/pic.png"></p>
+<p align="center"><img src="https://github.com/sork01/dd2421dtree/blob/master/1.png"></p>
