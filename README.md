@@ -80,7 +80,7 @@ Simpler model means higher bias and lower variance. pruning is used to lower var
 Pruning a tree means removing useless overfitting nodes, and by doing that we decrease the variande and increase the bias.
 
 #### Assignment 7:
-Evaluate the eﬀect pruning has on the test error for the `monk1` and `monk3` datasets, in particular determine the optimal partition into training and pruning by optimizing the parameter `fraction`. Plot the classiﬁcation error on the test sets as a function of the parameter `fraction` <span>&#8712;</span> {0.3, 0.4, 0.5, 0.6, 0.7, 0.8}. Reasonable statistics includes mean and a measure of the spread. Do remember to print axes labels, legends and data points as you will not pass without them.
+> Evaluate the eﬀect pruning has on the test error for the `monk1` and `monk3` datasets, in particular determine the optimal partition into training and pruning by optimizing the parameter `fraction`. Plot the classiﬁcation error on the test sets as a function of the parameter `fraction` <span>&#8712;</span> {0.3, 0.4, 0.5, 0.6, 0.7, 0.8}. Reasonable statistics includes mean and a measure of the spread. Do remember to print axes labels, legends and data points as you will not pass without them.
 
 
 
